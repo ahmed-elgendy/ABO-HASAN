@@ -1,14 +1,15 @@
 
 
 /*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
+  font-family: "Almarai", serif;
+  font-weight: 400;
+  font-style: normal;
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Open Sans",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Roboto",  sans-serif;
-  --nav-font: "Poppins",  sans-serif;
+  --default-font: "Almarai", serif, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Almarai", serif;
+  --nav-font: "Almarai", serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -812,14 +813,14 @@ section,
 
 .hero .info p {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .hero .info .btn-get-started {
   color: var(--contrast-color);
   font-family: var(--heading-font);
   font-weight: 500;
-  font-size: 16px;
+  font-size: 22px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 40px;
@@ -926,7 +927,7 @@ section,
 }
 
 .get-started .content h3 {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 600;
   margin-bottom: 25px;
   padding-bottom: 25px;
@@ -945,7 +946,7 @@ section,
 }
 
 .get-started .content p {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .get-started .php-email-form {
@@ -961,21 +962,21 @@ section,
 }
 
 .get-started .php-email-form h3 {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 .get-started .php-email-form p {
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 20px;
 }
 
 .get-started .php-email-form input[type=text],
 .get-started .php-email-form input[type=email],
 .get-started .php-email-form textarea {
-  font-size: 14px;
+  font-size: 20px;
   padding: 10px 15px;
   box-shadow: none;
   border-radius: 0;
@@ -1093,7 +1094,7 @@ section,
   font-weight: 700;
   margin: 0 0 20px 0;
   padding-bottom: 8px;
-  font-size: 22px;
+  font-size: 30px;
   position: relative;
   display: inline-block;
   border-bottom: 4px solid color-mix(in srgb, var(--heading-color), transparent 90%);
@@ -1102,7 +1103,7 @@ section,
 
 .services .service-item p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 20px;
   margin-bottom: 0;
 }
 
@@ -1148,7 +1149,7 @@ section,
 }
 
 .alt-services h3 {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
