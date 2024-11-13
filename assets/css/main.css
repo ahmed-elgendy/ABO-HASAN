@@ -1049,6 +1049,7 @@ section,
 .constructions .card-item p {
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   margin: 0;
+  font-size: 20px;
 }
 
 /*--------------------------------------------------------------
